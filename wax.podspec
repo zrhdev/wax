@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   }
 
   s.author             = { "probablycorey" => "probablycorey@gmail.com" }
+  s.source          = { :git => 'https://github.com/zrhdev/wax.git', :tag => s.version.to_s }
 
   s.platform     = :ios
 
