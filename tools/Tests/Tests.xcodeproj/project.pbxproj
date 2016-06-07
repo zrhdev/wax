@@ -123,9 +123,6 @@
 		043E60DA113C3DA5007A6104 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		043E60DB113C3DA5007A6104 /* wax_json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wax_json.c; sourceTree = "<group>"; };
 		043E60DC113C3DA5007A6104 /* wax_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_json.h; sourceTree = "<group>"; };
-		043E60E1113C3DA5007A6104 /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
-		043E60E2113C3DA5007A6104 /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
-		043E60E3113C3DA5007A6104 /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
 		043E60E4113C3DA5007A6104 /* yajl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl.c; sourceTree = "<group>"; };
 		043E60E5113C3DA5007A6104 /* yajl_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_alloc.c; sourceTree = "<group>"; };
 		043E60E6113C3DA5007A6104 /* yajl_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_alloc.h; sourceTree = "<group>"; };
@@ -362,7 +359,6 @@
 		043E60DF113C3DA5007A6104 /* yajl */ = {
 			isa = PBXGroup;
 			children = (
-				043E60E0113C3DA5007A6104 /* api */,
 				043E60E4113C3DA5007A6104 /* yajl.c */,
 				043E60E5113C3DA5007A6104 /* yajl_alloc.c */,
 				043E60E6113C3DA5007A6104 /* yajl_alloc.h */,
@@ -381,16 +377,6 @@
 				043E60F3113C3DA5007A6104 /* yajl_parser.h */,
 			);
 			path = yajl;
-			sourceTree = "<group>";
-		};
-		043E60E0113C3DA5007A6104 /* api */ = {
-			isa = PBXGroup;
-			children = (
-				043E60E1113C3DA5007A6104 /* yajl_common.h */,
-				043E60E2113C3DA5007A6104 /* yajl_gen.h */,
-				043E60E3113C3DA5007A6104 /* yajl_parse.h */,
-			);
-			path = api;
 			sourceTree = "<group>";
 		};
 		043E60FA113C3DA5007A6104 /* xml */ = {
